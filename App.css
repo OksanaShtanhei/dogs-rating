@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.container{
+  display: flex;
+}
+.box{
+  padding: 3vh 3vw;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+
+}
+img{
+  width: 100%;
+  object-fit: cover;
+  /* height: 300px; */
+}
+.btn-container{
+  margin-top: 5vh;
+}
+.btn{
+  display: inline;
+  width: 400px;
+  padding: 3px;
+  font-size: larger;
+}
+table{
+  text-transform: capitalize;
+}
+
