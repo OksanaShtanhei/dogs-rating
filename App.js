@@ -8,7 +8,6 @@ function App() {
   const [randomTwo, setRandomTwo] = useState()
   const [breed, setBreed] = useState([])
   const [rating, setRating] = useState([])
-  // const [names, setNames] = useState([])
   const [counter, setCounter] = useState({})
   
   const regexp = /\/+/g
